@@ -10,9 +10,10 @@ from random import randint
 # the URL for the project to watch. 
 site = 'http://www.kickstarter.com/projects/peterseid/romo-the-smartphone-robot-for-everyone/'
 # the sound to play, once for each unit sold
+# the code is currently tuned for a clip no more than one second long
 pingsound = './ping.wav'
 # a command-line sound player (on mac, use afplay)
-player = 'aplay'
+player = 'afplay'
 refresh = 40 # in seconds
 mults = [0, 0, 1, 1, 1, 1, 1, 1, 1] # how many units sold at each backer tier
 
